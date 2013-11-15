@@ -4,9 +4,9 @@ package controls {
 	import controls.factory.LayoutFactory;
 	
 	import feathers.controls.Button;
+	import feathers.controls.LayoutGroup;
 	import feathers.controls.ScrollContainer;
 	import feathers.core.FeathersControl;
-	import feathers.events.FeathersEventType;
 	import feathers.layout.AnchorLayout;
 	import feathers.layout.AnchorLayoutData;
 	
@@ -20,7 +20,7 @@ package controls {
 	/**
 	 * A toggle button on top of a list. Toggling the button expands/collapse the list.
 	 */
-	public class TogglePanel extends ScrollContainer {
+	public class TogglePanel extends LayoutGroup {
 		
 		// EVENTS :
 		/** Event dispatched when the panel is about to expand. */

@@ -17,7 +17,7 @@ package controls.dialogs {
 		
 		
 		// ASSETS :
-		[Embed("/../assets/images/loading.png")]
+		[Embed("../../../assets/loading.png")]
 		public static const LoadingSpriteClass:Class;
 		
 		// Static instance :
